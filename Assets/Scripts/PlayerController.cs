@@ -29,6 +29,15 @@ public class PlayerController : MonoBehaviour
         {
             transform.Rotate(Vector3.up, Az * Time.deltaTime);
             PlayerHead.transform.Rotate(Vector3.left, El * Time.deltaTime);
+            
+            // if (PlayerHead.transform.rotation.x > 0.5f)
+            // {
+            //     PlayerHead.transform.rotation.Set(0.5f, PlayerHead.transform.rotation.y, PlayerHead.transform.rotation.z, PlayerHead.transform.rotation.w);
+            // }
+            // else if (PlayerHead.transform.rotation.x < -0.5f)
+            // {
+
+            // }
         }
         
     }
